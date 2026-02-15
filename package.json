@@ -1,7 +1,7 @@
 {
   "name": "devcommands-hub",
   "version": "1.0.0",
-  "homepage": "https://github.com/Firstgitacc/devcommands-hub",
+  "homepage": "https://firstgitacc.github.io",
   "description": "Developer Commands Hub - A searchable collection of developer commands",
   "private": true,
   "dependencies": {
