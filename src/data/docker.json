@@ -1,0 +1,29 @@
+[
+    {
+      "category": "Containers",
+      "commands": [
+        { "command": "docker ps", "description": "List running containers" },
+        { "command": "docker ps -a", "description": "List all containers" },
+        { "command": "docker run image-name", "description": "Run a container" },
+        { "command": "docker stop container-id", "description": "Stop a running container" },
+        { "command": "docker rm container-id", "description": "Remove a container" }
+      ]
+    },
+    {
+      "category": "Images",
+      "commands": [
+        { "command": "docker images", "description": "List images" },
+        { "command": "docker rmi image-id", "description": "Remove an image" },
+        { "command": "docker pull image-name", "description": "Download an image" },
+        { "command": "docker build -t name .", "description": "Build an image from Dockerfile" }
+      ]
+    },
+    {
+      "category": "Volumes and Networks",
+      "commands": [
+        { "command": "docker volume ls", "description": "List volumes" },
+        { "command": "docker network ls", "description": "List networks" }
+      ]
+    }
+  ]
+  

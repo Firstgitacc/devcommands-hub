@@ -1,0 +1,28 @@
+[
+    {
+      "category": "Pods",
+      "commands": [
+        { "command": "kubectl get pods", "description": "List all pods" },
+        { "command": "kubectl describe pod pod-name", "description": "Describe a specific pod" },
+        { "command": "kubectl delete pod pod-name", "description": "Delete a pod" },
+        { "command": "kubectl logs pod-name", "description": "Fetch logs from a pod" }
+      ]
+    },
+    {
+      "category": "Deployments",
+      "commands": [
+        { "command": "kubectl get deployments", "description": "List deployments" },
+        { "command": "kubectl create deployment name --image=image", "description": "Create a new deployment" },
+        { "command": "kubectl scale deployment name --replicas=3", "description": "Scale a deployment" },
+        { "command": "kubectl rollout restart deployment name", "description": "Restart a deployment" }
+      ]
+    },
+    {
+      "category": "Services",
+      "commands": [
+        { "command": "kubectl get svc", "description": "List services" },
+        { "command": "kubectl expose deployment name --port=80 --target-port=8080", "description": "Expose a deployment as a service" }
+      ]
+    }
+  ]
+  

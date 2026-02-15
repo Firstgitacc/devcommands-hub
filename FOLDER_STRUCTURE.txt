@@ -1,0 +1,42 @@
+devcommands-hub/
+│
+├── 📄 Configuration Files
+│   ├── package.json              # Dependencies and scripts
+│   ├── vite.config.js            # Vite build tool config
+│   ├── tailwind.config.js        # Tailwind CSS config
+│   ├── postcss.config.js         # PostCSS config
+│   └── .gitignore                # Git ignore rules
+│
+├── 📄 Documentation
+│   ├── README.md                 # Complete project documentation
+│   ├── HOW_TO_USE.md            # Detailed usage guide
+│   ├── SETUP.md                  # Quick setup instructions
+│   └── PROJECT_STRUCTURE.md      # File organization
+│
+├── 📄 index.html                 # HTML entry point
+│
+└── 📁 src/                       # Source code directory
+    │
+    ├── 📄 main.jsx               # React application entry
+    ├── 📄 App.jsx                # Main application component
+    │
+    ├── 📁 components/            # Reusable React components
+    │   ├── CommandCard.jsx       # Individual command card
+    │   ├── SearchBar.jsx         # Search & filter controls
+    │   ├── Header.jsx            # Page header
+    │   ├── Statistics.jsx        # Statistics display
+    │   └── EmptyState.jsx        # Empty results UI
+    │
+    ├── 📁 data/                  # ⭐ JSON FILES - EDIT THESE!
+    │   ├── docker.json           # Docker commands
+    │   ├── git.json              # Git commands
+    │   ├── kubernetes.json       # Kubernetes commands
+    │   └── shell.json            # Shell/Linux commands
+    │
+    ├── 📁 utils/                 # Helper functions
+    │   └── dataLoader.js         # Load & process JSON data
+    │
+    └── 📁 styles/                # CSS styling
+        └── index.css             # Main stylesheet
+
+TOTAL FILES: 23

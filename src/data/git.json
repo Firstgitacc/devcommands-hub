@@ -1,0 +1,36 @@
+[
+    {
+      "category": "Setup",
+      "commands": [
+        { "command": "git config --global user.name 'Name'", "description": "Set username" },
+        { "command": "git config --global user.email 'email@example.com'", "description": "Set email" }
+      ]
+    },
+    {
+      "category": "Repository",
+      "commands": [
+        { "command": "git init", "description": "Initialize a new git repository" },
+        { "command": "git clone repo-url", "description": "Clone a repository" },
+        { "command": "git remote add origin repo-url", "description": "Add a remote repository" }
+      ]
+    },
+    {
+      "category": "Commits and Branches",
+      "commands": [
+        { "command": "git add .", "description": "Stage all changes" },
+        { "command": "git commit -m 'message'", "description": "Commit changes" },
+        { "command": "git push origin branch-name", "description": "Push branch to remote" },
+        { "command": "git checkout branch-name", "description": "Switch branches" },
+        { "command": "git branch", "description": "List branches" }
+      ]
+    },
+    {
+      "category": "History and Reverts",
+      "commands": [
+        { "command": "git log", "description": "Show commit history" },
+        { "command": "git revert commit-id", "description": "Revert a commit" },
+        { "command": "git reset --hard commit-id", "description": "Reset repository to specific commit" }
+      ]
+    }
+  ]
+  

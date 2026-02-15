@@ -1,0 +1,60 @@
+[
+    {
+      "category": "File Operations",
+      "commands": [
+        { "command": "ls", "description": "List directory contents" },
+        { "command": "cp source target", "description": "Copy files or directories" },
+        { "command": "mv source target", "description": "Move or rename files or directories" },
+        { "command": "rm file", "description": "Remove a file" },
+        { "command": "rm -r dir", "description": "Remove a directory and its contents" },
+        { "command": "touch file", "description": "Create an empty file" },
+        { "command": "cat file", "description": "Display file content" },
+        { "command": "nano file", "description": "Edit file using nano editor" }
+      ]
+    },
+    {
+      "category": "Directory Navigation",
+      "commands": [
+        { "command": "cd path", "description": "Change directory" },
+        { "command": "pwd", "description": "Print current working directory" },
+        { "command": "mkdir folder", "description": "Create a new directory" },
+        { "command": "rmdir folder", "description": "Remove an empty directory" }
+      ]
+    },
+    {
+      "category": "Permissions",
+      "commands": [
+        { "command": "chmod +x file", "description": "Make a file executable" },
+        { "command": "chown user:group file", "description": "Change file owner and group" },
+        { "command": "ls -l", "description": "List files with permissions" }
+      ]
+    },
+    {
+      "category": "Process Management",
+      "commands": [
+        { "command": "ps aux", "description": "List running processes" },
+        { "command": "top", "description": "Show real-time process usage" },
+        { "command": "kill PID", "description": "Terminate a process by PID" },
+        { "command": "killall name", "description": "Terminate all processes with a given name" }
+      ]
+    },
+    {
+      "category": "Networking",
+      "commands": [
+        { "command": "ping host", "description": "Check network connectivity" },
+        { "command": "ifconfig", "description": "Display network interfaces (legacy)" },
+        { "command": "ip a", "description": "Display network interfaces (modern)" },
+        { "command": "netstat -tuln", "description": "List open ports and listening services" },
+        { "command": "curl URL", "description": "Fetch content from a URL" }
+      ]
+    },
+    {
+      "category": "Search & Filters",
+      "commands": [
+        { "command": "grep 'text' file", "description": "Search text in a file" },
+        { "command": "find . -name '*.txt'", "description": "Find files by name" },
+        { "command": "history", "description": "Show command history" }
+      ]
+    }
+  ]
+  
